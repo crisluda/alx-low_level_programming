@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * main - this is the main function
+ * print_last_digit - this is the main function
+ * @n: n is an int
  * discription - the starting point of the program
  * Return: the main have to return 0
  */
