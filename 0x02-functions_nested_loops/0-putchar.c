@@ -1,7 +1,7 @@
 #include "main.h"
-/*
- * main
- * return 0
+/**
+ * main - this is the main function
+ * discription - the starting point of the program
  */
 int main(void)
 {
@@ -14,5 +14,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-return 0;
+return (0);
 }
