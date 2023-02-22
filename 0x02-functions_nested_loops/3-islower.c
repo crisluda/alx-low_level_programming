@@ -2,7 +2,7 @@
 
 /**
  * _islower - this is the main function
- * @C: is an int
+ * @c: is an int
  * Return: the main have to return 0 or 1
  */
 
