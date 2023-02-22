@@ -2,7 +2,7 @@
 /**
  * main - this is the main function
  * discription - the starting point of the program
- * return - the main have to return 0
+ * Return: the main have to return 0
  */
 int main(void)
 {
