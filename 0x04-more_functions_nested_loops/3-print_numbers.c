@@ -2,10 +2,10 @@
 #include <stdio.h>
 /**
 * print_numbers - this is the main function
-* @n: c is a int
- * discription - the starting point of the program
- * Return: the main have to return 0
- */
+* @ n: n is a int
+* discription - the starting point of the program
+* Return: the main have to return 0
+*/
 void print_numbers(void)
 {
 	int n;
