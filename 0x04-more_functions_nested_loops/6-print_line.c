@@ -10,7 +10,7 @@ void print_line(int n)
 {
 	int m;
 
-	if (n == 0)
+	if (n <= 0)
 	_putchar('\n');
 	if (n > 0)
 	{
@@ -20,6 +20,4 @@ void print_line(int n)
 	}
 	_putchar('\n');
 	}
-	if (n < 0)
-	_putchar('\n');
 }
