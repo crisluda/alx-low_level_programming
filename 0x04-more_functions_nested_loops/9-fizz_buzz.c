@@ -4,7 +4,7 @@
  * discription - the starting point of the program
  * Return: the main have to return 0
  */
-int main()
+int main(void)
 {
 	int i;
 
