@@ -1,13 +1,11 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
-
 /**
  * print_strings - this is the main function
- * @separator: is an string 
+ * @separator: is an string
  * @n: is an number
  * @...: A variable number of strings to be printed.
- *
  * Description:  discription - the starting point of the program
  */
 void print_strings(const char *separator, const unsigned int n, ...)
@@ -21,11 +19,11 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	{
 		str = va_arg(strings, char *);
 		if (str == NULL)
-			printf("(nil)");
+		printf("(nil)");
 		else
-			printf("%s", str);
+		printf("%s", str);
 		if (index != (n - 1) && separator != NULL)
-			printf("%s", separator);
+		printf("%s", separator);
 	}
 	printf("\n");
 	va_end(strings);
